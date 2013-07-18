@@ -1,0 +1,20 @@
+{
+    "name": "burnbright/silverstripe-widget-content",
+    "description": "Display html content using this widget.",
+    "type": "silverstripe-module",
+    "keywords" : ["content","html","text","copy","widget"],
+    "require": {
+        "silverstripe/framework": "3.*",
+        "silverstripe/cms": "3.*"
+    },
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Jeremy Shipman",
+            "email": "jeremy@burnbright.net"
+        }
+    ],
+    "extra" : {
+        "installer-name": "widgets_content"
+    }
+}
