@@ -1,4 +1,3 @@
-silverstripe-widget-content
-===========================
+# SilverStripe Content Widget
 
-Display html content using this widget
+Display HTML content in a widget!
