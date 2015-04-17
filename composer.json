@@ -1,20 +1,27 @@
 {
-    "name": "burnbright/silverstripe-widget-content",
-    "description": "Display html content using this widget.",
-    "type": "silverstripe-module",
-    "keywords" : ["content","html","text","copy","widget"],
-    "require": {
-        "silverstripe/framework": "3.*",
-        "silverstripe/cms": "3.*"
-    },
-    "license": "BSD-2-Clause",
-    "authors": [
-        {
-            "name": "Jeremy Shipman",
-            "email": "jeremy@burnbright.net"
-        }
-    ],
-    "extra" : {
-        "installer-name": "widgets_content"
-    }
+	"name": "silverstripe/content-widget",
+	"description": "Display HTML content in a widget",
+	"type": "silverstripe-module",
+	"keywords": [
+		"content",
+		"html",
+		"text",
+		"copy",
+		"widget"
+	],
+	"require": {
+		"silverstripe/framework": "3.*",
+		"silverstripe/cms": "3.*",
+		"silverstripe/widgets": "~1.1"
+	},
+	"support": {
+		"issues": "http://github.com/silverstripe-labs/silverstripe-content-widget/issues"
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jeremy Shipman",
+			"email": "jeremy@burnbright.net"
+		}
+	]
 }
