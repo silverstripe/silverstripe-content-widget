@@ -1,35 +1,31 @@
 {
-	"name": "silverstripe/content-widget",
-	"description": "Display HTML content in a widget",
-	"type": "silverstripe-module",
-	"keywords": [
-		"content",
-		"html",
-		"text",
-		"copy",
-		"widget"
-	],
-	"require": {
-		"silverstripe/framework": "3.*",
-		"silverstripe/cms": "3.*",
-		"silverstripe/widgets": "~1.1"
-	},
-	"support": {
-		"issues": "http://github.com/silverstripe-labs/silverstripe-content-widget/issues"
-	},
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Jeremy Shipman",
-			"email": "jeremy@burnbright.net"
-		}
-	],
-	"replace": {
-		"burnbright/silverstripe-widget-content": "self.version"
-	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "1.0.x-dev"
-		}
-	}
+    "name": "silverstripe/content-widget",
+    "description": "Display HTML content in a widget",
+    "type": "silverstripe-module",
+    "keywords": [
+        "content",
+        "html",
+        "text",
+        "copy",
+        "widget"
+    ],
+    "require": {
+        "silverstripe/framework": "3.*",
+        "silverstripe/cms": "3.*",
+        "silverstripe/widgets": "~1.1"
+    },
+    "support": {
+        "issues": "http://github.com/silverstripe-labs/silverstripe-content-widget/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeremy Shipman",
+            "email": "jeremy@burnbright.net"
+        }
+    ],
+    "replace": {
+        "burnbright/silverstripe-widget-content": "self.version"
+    },
+    "extra": []
 }
