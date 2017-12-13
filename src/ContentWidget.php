@@ -1,33 +1,28 @@
 <?php
 
+namespace SilverStripe\ContentWidget;
+
+use SilverStripe\Forms\FieldList;
+use SilverStripe\Forms\TextField;
+use SilverStripe\Forms\HTMLEditor\HTMLEditorField;
+use SilverStripe\Widgets\Model\Widget;
+
 /**
  * Content Widget
- *
- * @package silverstripe-content-widget
  */
 class ContentWidget extends Widget
 {
-    /**
-     * @var array
-     */
-    public static $db = array(
-        "HTML" => "HTMLText"
-    );
+    private static $db = [
+        "HTML" => "HTMLText",
+    ];
 
-    /**
-     * @var string
-     */
     private static $title = "HTML Content";
 
-    /**
-     * @var string
-     */
     private static $cmsTitle = "HTML Content";
 
-    /**
-     * @var string
-     */
     private static $description = "Custom HTML content widget.";
+
+    private static $table_name = 'ContentWidget';
 
     /**
      * @return FieldList
@@ -37,7 +32,7 @@ class ContentWidget extends Widget
         $fields = parent::getCMSFields();
 
         $fields->push(TextField::create("Title"));
-        $fields->push(HtmlEditorField::create("HTML", "Content"));
+        $fields->push(HTMLEditorField::create("HTML", "Content"));
 
         return $fields;
     }

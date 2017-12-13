@@ -1,5 +1,9 @@
 # SilverStripe Content Widget
 
+[![Build Status](https://travis-ci.org/silverstripe/silverstripe-content-widget.svg?branch=master)](https://travis-ci.org/silverstripe/silverstripe-content-widget)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/silverstripe/silverstripe-content-widget/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/silverstripe/silverstripe-content-widget/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/silverstripe/silverstripe-content-widget/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/silverstripe/silverstripe-content-widget/?branch=master)
+
 Display HTML content in a widget!
 
 ## Installation
