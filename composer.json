@@ -10,7 +10,7 @@
 		"widget"
 	],
 	"require": {
-		"silverstripe/cms": "^4",
+		"silverstripe/framework": "^4",
 		"silverstripe/widgets": "^2"
 	},
 	"require-dev": {
