@@ -20,7 +20,7 @@ class ContentWidget extends Widget
 
     private static $cmsTitle = "Content";
 
-    private static $description = "Custom HTML content widget.";
+    private static $description = "Custom rich content widget.";
 
     private static $table_name = 'ContentWidget';
 
