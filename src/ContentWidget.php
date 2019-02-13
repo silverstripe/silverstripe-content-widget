@@ -16,9 +16,9 @@ class ContentWidget extends Widget
         "HTML" => "HTMLText",
     ];
 
-    private static $title = "Content widget";
+    private static $title = "Content";
 
-    private static $cmsTitle = "Content widget";
+    private static $cmsTitle = "Content";
 
     private static $description = "Custom HTML content widget.";
 
