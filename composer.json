@@ -30,11 +30,6 @@
 	"replace": {
 		"burnbright/silverstripe-widget-content": "self.version"
 	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "2.x-dev"
-		}
-	},
 	"autoload": {
 		"psr-4": {
 			"SilverStripe\\ContentWidget\\": "src/",
